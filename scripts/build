@@ -9,7 +9,7 @@ git add .
 git commit -m 'autocommit'
 git push
 
-ssh do2 "cd /mnt/volume_sfo2_01/projects/docker/volumes/piousbox_drupal_production_data/web/themes/piousbox_drupal_theme ; git pull && echo $HOSTNAME ok"
+ssh do2 "cd /mnt/volume_sfo2_01/projects/docker/volumes/bjjcollective_drupal_production_data/web/themes/bjjcollective_drupal_theme ; git pull && echo $HOSTNAME ok"
 
 
 set +e

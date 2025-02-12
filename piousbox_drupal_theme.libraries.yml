@@ -2,4 +2,4 @@ base:
   version: VERSION
   css:
     base:
-      css/piousbox.css: {}
+      css/main.css: {}
