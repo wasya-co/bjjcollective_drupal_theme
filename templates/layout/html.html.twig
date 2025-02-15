@@ -16,8 +16,10 @@
     <link rel="preload" href="/themes/ish_drupal_theme/vendor/css/bootstrap%404.5.2.min.css?s41483" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/themes/ish_drupal_theme/vendor/css/bootstrap%404.5.2.min.css?s41483"></noscript>
 
-    <link rel="preload" href="/themes/ish_drupal_theme/vendor/css/fa-6.5.2-all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/themes/ish_drupal_theme/vendor/css/fa-6.5.2-all.min.css"></noscript>
+    {# <link rel="preload" href="/themes/ish_drupal_theme/vendor/css/fa-6.5.2-all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/themes/ish_drupal_theme/vendor/css/fa-6.5.2-all.min.css"></noscript> #}
+
+    <link rel="stylesheet" href="/themes/bjjcollective_drupal_theme/css/main.css?s41483">
 
     <css-placeholder token="{{ placeholder_token }}">
     <js-placeholder token="{{ placeholder_token }}">
@@ -39,7 +41,7 @@
       (function() {
         var u="//analytics.wasya.co/";
         _paq.push(['setTrackerUrl', u+'matomo.php']);
-        _paq.push(['setSiteId', '8']);
+        _paq.push(['setSiteId', '9']); // bjjcollective
         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
         g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
       })();
